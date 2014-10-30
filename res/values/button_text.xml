@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 注册 -->
+    <string name="main_button_register">New Start</string>
+    <string name="main_button_login">Login</string>
+    <string name="register_button_cancel">Cancel</string>
+    <string name="register_fetch_verifycode_loading">Sending code...</string>
+    <string name="register_fetch_verifycode">Next</string>
+    <string name="register_done">Done</string>
+    <string name="register_done_loading">Submitting...</string>
+    <string name="verifycode_confirm_loading">Verifying...</string>
+    <string name="verifycode_confirm">OK</string>
+    <string name="verifycode_no_receive">Can\'t receive the code?</string>
+    <string name="dialog_cancel_text">Cancel</string>
+    <string name="dialog_register_by_email">E-mail Registration</string>
+    <string name="dialog_register_confirm_email">Register</string>
+    <string name="dialog_binding_email_confirm">Bind</string>
+    <string name="login">Login</string>
+    <string name="login_loading">Logging in...</string>
+    <string name="reset_password_loading">Resetting Password...</string>
+    <string name="reset_password">Done</string>
+    <string name="edit_baby_nickname">Save</string>
+<string name="request_verifycode">Get SMS Code</string>
+<string name="request_verifycode_again">%s Seconds</string>
+    <!-- 分享 -->
+
+    <string name="share_send_sms">SMS</string>
+    <string name="share_send_email">E-mail</string>
+    <string name="share_sina_weibo">Weibo</string>
+    <string name="share_weixin">WeChat</string>
+    <string name="share_weixin_friendcircle">Moments</string>
+    <string name="share_copy">Copy</string>
+    <string name="share_qq">QQ</string>
+    <!-- 修改手机号 -->
+    <string name="changephone_login_loading">Logging in...</string>
+    <string name="changephone_login">Next</string>
+
+    <!-- 修改email -->
+    <string name="email_confirm_loading">Sending E-mail...</string>
+    <string name="email_confirm">OK</string>
+    <string name="email_binding_confirm_loading">Submitting...</string>
+    <string name="setting_logout">Log Out</string>
+    <!-- 修改密码 -->
+    <string name="modify_password_loading">Changing Password...</string>
+    <string name="modify_password">OK</string>
+    <string name="temperature_expand">Less</string>
+    <string name="temperature_collapse">More</string>
+    <string name="exit_app">Exit</string>
+
+    <!-- 添加宝宝 -->
+    <string name="add_baby">Another Baby</string>
+
+    <!-- 剪切图片 -->
+    <string name="button_cancel">Cancel</string>
+    <string name="button_done">OK</string>
+
+    <!-- 设置温度标准 -->
+    <string name="button_degreecelsius">Centigrade(°C)</string>
+    <string name="button_degreefahrenheit">Fahrenheit(°F)</string>
+    <!-- 意见反馈 -->
+    <string name="button_submit">Submit</string>
+    <!-- 健康记录 -->
+    <string name="button_save">Save</string>
+    <!-- 填写账号 -->
+    <string name="edit_account_button_done">Done</string>
+    <string name="btn_health_search">Search</string>
+    <string name="btn_health_bookmark">Favourites</string>
+    <string name="button_confirm">OK</string>
+    <string name="button_retry">Retry</string>
+    <!-- 测量体温 -->
+    <string name="button_continue_measure">Keep</string>
+    <string name="button_disconnected">Disconnect </string>
+    <!-- 连接设备 -->
+    <string name="button_wear_done">Done</string>
+    <string name="button_start_connect">Start Connecting</string>
+    <string name="button_connect_success">Done</string>
+    <string name="button_skip">Skip</string>
+
+</resources>

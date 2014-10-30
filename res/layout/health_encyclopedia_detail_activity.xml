@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/TitleStyle"
+        android:layout_width="fill_parent" >
+
+        <TextView
+            android:id="@+id/btn_back"
+            style="@style/TitleLeftButtonStyle" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TitleMiddleTextStyle"
+            android:layout_marginLeft="55dip"
+            android:layout_marginRight="85dip"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/bookmark_white" />
+
+            <TextView
+                android:id="@+id/btn_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/icon_share" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.yujunkang.fangxinbao.control.WrapWebView
+        android:id="@+id/wv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

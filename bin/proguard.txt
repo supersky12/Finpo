@@ -1,0 +1,286 @@
+# view res/layout/main.xml #generated:6
+-keep class com.android.gallery3d.ui.GLRootView { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.baidu.android.pushservice.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.baidu.android.pushservice.PushServiceReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.baidu.android.pushservice.RegistrationReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.baidu.frontia.activity.share.FrontiaLocalShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.baidu.frontia.activity.share.FrontiaQQFriendShareReceiverActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.baidu.frontia.activity.share.FrontiaSocialOAuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.umeng.update.net.DownloadingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:300
+-keep class com.yujunkang.fangxinbao.activity.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:381
+-keep class com.yujunkang.fangxinbao.activity.ConnectDeviceSuccessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:386
+-keep class com.yujunkang.fangxinbao.activity.FavoriteHealthInfoListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:365
+-keep class com.yujunkang.fangxinbao.activity.FeedBackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:326
+-keep class com.yujunkang.fangxinbao.activity.HealthEncyclopediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:331
+-keep class com.yujunkang.fangxinbao.activity.HealthEncyclopediaDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.yujunkang.fangxinbao.activity.MainActivity { <init>(...); }
+
+# view res/layout/test_activity.xml #generated:23
+-keep class com.yujunkang.fangxinbao.activity.PathView { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.yujunkang.fangxinbao.activity.PrelaunchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:376
+-keep class com.yujunkang.fangxinbao.activity.PrepareConnectDeviceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:343
+-keep class com.yujunkang.fangxinbao.activity.SearchHealthEncyclopediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.yujunkang.fangxinbao.activity.SelectCountryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:358
+-keep class com.yujunkang.fangxinbao.activity.SelectDeviceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:305
+-keep class com.yujunkang.fangxinbao.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:321
+-keep class com.yujunkang.fangxinbao.activity.SettingLanguageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:315
+-keep class com.yujunkang.fangxinbao.activity.SettingMeasurementPeriodActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:310
+-keep class com.yujunkang.fangxinbao.activity.SettingTemperatureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.yujunkang.fangxinbao.activity.TestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:371
+-keep class com.yujunkang.fangxinbao.activity.UserWearDeviceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:353
+-keep class com.yujunkang.fangxinbao.activity.WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:277
+-keep class com.yujunkang.fangxinbao.activity.user.BabyHistoryRecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:393
+-keep class com.yujunkang.fangxinbao.activity.user.ChangePhoneLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:405
+-keep class com.yujunkang.fangxinbao.activity.user.EditAccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.yujunkang.fangxinbao.activity.user.EditBabyInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:271
+-keep class com.yujunkang.fangxinbao.activity.user.EditBabyNickNameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:254
+-keep class com.yujunkang.fangxinbao.activity.user.EditEmailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:287
+-keep class com.yujunkang.fangxinbao.activity.user.EditHealthTipActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.yujunkang.fangxinbao.activity.user.FetchVerifyCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.yujunkang.fangxinbao.activity.user.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:399
+-keep class com.yujunkang.fangxinbao.activity.user.ModifyPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.yujunkang.fangxinbao.activity.user.PhotoAlbumActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:293
+-keep class com.yujunkang.fangxinbao.activity.user.PhotoThumbnaiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:249
+-keep class com.yujunkang.fangxinbao.activity.user.PictureCropActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.yujunkang.fangxinbao.activity.user.ResetPassWordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:266
+-keep class com.yujunkang.fangxinbao.activity.user.UserBabyInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.yujunkang.fangxinbao.activity.user.UserMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:233
+-keep class com.yujunkang.fangxinbao.activity.user.VerifySMSCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.yujunkang.fangxinbao.app.FangXinBaoApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.yujunkang.fangxinbao.bluetoothlegatt.BluetoothLeService { <init>(...); }
+
+# view AndroidManifest.xml #generated:348
+-keep class com.yujunkang.fangxinbao.bluetoothlegatt.DeviceScanActivity { <init>(...); }
+
+# view res/layout/about_activity.xml #generated:12
+# view res/layout/baby_health_history_activity.xml #generated:15
+# view res/layout/baby_health_history_activity.xml #generated:191
+# view res/layout/change_phone_verify_password_activity.xml #generated:12
+# view res/layout/connect_device_success_activity.xml #generated:38
+# view res/layout/edit_account_activity.xml #generated:12
+# view res/layout/edit_baby_health_tip_activity.xml #generated:12
+# view res/layout/edit_baby_health_tip_activity.xml #generated:26
+# view res/layout/edit_baby_nickname_activity.xml #generated:12
+# view res/layout/edit_email_activity.xml #generated:12
+# view res/layout/feedback_activity.xml #generated:20
+# view res/layout/fetch_verifycode_activity.xml #generated:13
+# view res/layout/modify_password_activity.xml #generated:12
+# view res/layout/prepare_connect_device_activity.xml #generated:136
+# view res/layout/scan_bluetooth_device_activity.xml #generated:21
+# view res/layout/setting_measurement_period_activity.xml #generated:46
+# view res/layout/setting_measurement_period_activity.xml #generated:73
+# view res/layout/settings_temperature_view.xml #generated:12
+# view res/layout/settings_temperature_view.xml #generated:39
+# view res/layout/use_device_step_activity.xml #generated:113
+# view res/layout/user_baby_info_activity.xml #generated:12
+# view res/layout/user_main_activity.xml #generated:15
+# view res/layout/verifycode_activity.xml #generated:13
+-keep class com.yujunkang.fangxinbao.control.FlatButton { <init>(...); }
+
+# view res/layout/select_country_activity.xml #generated:76
+-keep class com.yujunkang.fangxinbao.control.IndexScrollBar { <init>(...); }
+
+# view res/layout/change_phone_verify_password_activity.xml #generated:57
+# view res/layout/edit_account_activity.xml #generated:52
+# view res/layout/edit_baby_info_activity.xml #generated:235
+# view res/layout/edit_email_activity.xml #generated:47
+# view res/layout/fetch_verifycode_activity.xml #generated:137
+# view res/layout/login_activity.xml #generated:158
+# view res/layout/modify_password_activity.xml #generated:127
+# view res/layout/reset_password_activity.xml #generated:45
+# view res/layout/verifycode_activity.xml #generated:86
+-keep class com.yujunkang.fangxinbao.control.NetworkProgressButton { <init>(...); }
+
+# view res/layout/health_encyclopedia_list_item.xml #generated:10
+# view res/layout/item_image_bucket.xml #generated:8
+# view res/layout/photo_album_item.xml #generated:8
+-keep class com.yujunkang.fangxinbao.control.NetworkedCacheableImageView { <init>(...); }
+
+# view res/layout/health_encyclopedia_activity.xml #generated:30
+# view res/layout/user_main_activity.xml #generated:42
+-keep class com.yujunkang.fangxinbao.control.NoCrashDrawerLayout { <init>(...); }
+
+# view res/layout/setting_list_footer_view.xml #generated:194
+-keep class com.yujunkang.fangxinbao.control.PhoneTextView { <init>(...); }
+
+# view res/layout/select_country_activity.xml #generated:65
+-keep class com.yujunkang.fangxinbao.control.PinnedHeaderExpandableListView { <init>(...); }
+
+# view res/layout/search_health_encyclopedia_activity.xml #generated:21
+# view res/layout/select_country_activity.xml #generated:26
+-keep class com.yujunkang.fangxinbao.control.SearchBarView { <init>(...); }
+
+# view res/layout/settings_temperature_activity.xml #generated:35
+-keep class com.yujunkang.fangxinbao.control.SettingTemperatureView { <init>(...); }
+
+# view res/layout/about_activity.xml #generated:114
+# view res/layout/about_activity.xml #generated:149
+# view res/layout/about_activity.xml #generated:163
+# view res/layout/about_activity.xml #generated:78
+# view res/layout/about_activity.xml #generated:93
+# view res/layout/setting_list_footer_view.xml #generated:130
+# view res/layout/setting_list_footer_view.xml #generated:144
+# view res/layout/setting_list_footer_view.xml #generated:253
+# view res/layout/setting_list_footer_view.xml #generated:35
+# view res/layout/setting_list_footer_view.xml #generated:65
+# view res/layout/setting_list_footer_view.xml #generated:79
+-keep class com.yujunkang.fangxinbao.control.TableItemView { <init>(...); }
+
+# view res/layout/user_main_inner_view.xml #generated:32
+-keep class com.yujunkang.fangxinbao.control.TemperatureCheckRecordView { <init>(...); }
+
+# view res/layout/baby_health_history_activity.xml #generated:158
+# view res/layout/test_activity.xml #generated:8
+# view res/layout/user_main_inner_view.xml #generated:260
+-keep class com.yujunkang.fangxinbao.control.TemperatureCureView { <init>(...); }
+
+# view res/layout/health_encyclopedia_detail_activity.xml #generated:48
+# view res/layout/webview_activity.xml #generated:25
+-keep class com.yujunkang.fangxinbao.control.WrapWebView { <init>(...); }
+
+# view res/layout/baby_health_history_activity.xml #generated:41
+-keep class com.yujunkang.fangxinbao.control.calendar.CalendarCardPager { <init>(...); }
+
+# view res/layout/week.xml #generated:13
+# view res/layout/week.xml #generated:18
+# view res/layout/week.xml #generated:23
+# view res/layout/week.xml #generated:28
+# view res/layout/week.xml #generated:33
+# view res/layout/week.xml #generated:38
+# view res/layout/week.xml #generated:8
+-keep class com.yujunkang.fangxinbao.control.calendar.CalendarCellView { <init>(...); }
+
+# view res/layout/cell_item.xml #generated:16
+-keep class com.yujunkang.fangxinbao.control.calendar.CalendarDateView { <init>(...); }
+
+# view res/layout/month.xml #generated:18
+-keep class com.yujunkang.fangxinbao.control.calendar.CalendarGridView { <init>(...); }
+
+# view res/layout/month.xml #generated:23
+# view res/layout/week.xml #generated:2
+-keep class com.yujunkang.fangxinbao.control.calendar.CalendarRowView { <init>(...); }
+
+# view res/layout/month.xml #generated:2
+-keep class com.yujunkang.fangxinbao.control.calendar.MonthView { <init>(...); }
+
+# view res/layout/photo_croper_activity.xml #generated:18
+-keep class com.yujunkang.fangxinbao.control.image.CaptureView { <init>(...); }
+
+# view res/layout/baby_photo_view.xml #generated:29
+# view res/layout/menu_settings_layout.xml #generated:20
+-keep class com.yujunkang.fangxinbao.control.image.RoundedNetWorkImageView { <init>(...); }
+
+# view res/layout/photo_croper_activity.xml #generated:12
+-keep class com.yujunkang.fangxinbao.control.image.ZoomImageView { <init>(...); }
+
+# view res/layout/health_encyclopedia_activity.xml #generated:40
+-keep class com.yujunkang.fangxinbao.control.pulltorefresh.PullToRefreshListView { <init>(...); }
+
+# view res/layout/edit_account_activity.xml #generated:32
+# view res/layout/edit_email_activity.xml #generated:33
+# view res/layout/fetch_verifycode_activity.xml #generated:107
+# view res/layout/login_activity.xml #generated:97
+-keep class com.yujunkang.fangxinbao.control.validator.FormEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.yujunkang.fangxinbao.receiver.CheckTemperatureDataReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.yujunkang.fangxinbao.receiver.FangxinbaoPushMessageReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:411
+-keep class com.yujunkang.fangxinbao.wxapi.WXEntryActivity { <init>(...); }
+

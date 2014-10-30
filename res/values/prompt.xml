@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="NetworkExceptional">Oops &#64;We\'ve got problems. Try again later.</string>
+    <string name="ServerExceptional">Oops &#64;We\'ve got problems. Try again later.</string>
+    <string name="ServerTimeOutExceptional">Network time out. Please try again.</string>
+    <string name="network_unavailable">Network connection lost.</string>
+    <string name="network_authentication_failed">Login Failed.</string>
+    <string name="external_storage_unmounted">SD Card Unavailable</string>
+    <string name="save_imagefile_path_error">Image Path Parse Error.</string>
+    <string name="error_email_address_not_valid">Invalid Email</string>
+    <string name="error_field_must_not_be_empty">The field must not be empty</string>
+    <string name="error_phone_not_valid">Invalid Cellphone Number</string>
+    <string name="error_field_account_not_valid">Invalid Username</string>
+    <string name="error_send_email_failed">Mail Sent Failed.</string>
+    <string name="send_email_success">Mail Sent Successfully!</string>
+    <string name="error_login_failed">Login Failed.</string>
+    <string name="login_success">Login Successfully.</string>
+    <string name="register_success">Register Successfully.</string>
+    <string name="register_failed">Register Failed.!</string>
+    <string name="reset_password_send_email_loading">Sending E-mail...</string>
+    <string name="binding_email_success">Change E-mail Successfully.</string>
+    <string name="read_imagefile_path_error">Failed to load image.</string>
+    <string name="error_reset_password_failed">Failed to reset password.</string>
+    <string name="error_update_baby_info">Load Data Failed.</string>
+    <string name="modify_baby_sex_loading">Setting Gender...</string>
+    <string name="modify_baby_sex_success">Gender Set Successfully.</string>
+    <string name="modify_baby_born_loading">Setting Birthday...</string>
+    <string name="modify_baby_born_success">Birthday Set Successfully.</string>
+    <string name="modify_baby_nickname_loading">Setting Nickname...</string>
+    <string name="modify_baby_nickname_success">Nickname Set Successfully</string>
+    <string name="modify_baby_photo_loading">Uploading Image...</string>
+    <string name="modify_baby_photo_success">Image Uploaded.</string>
+    <string name="modify_password_failed">Failed to Change Password.</string>
+    <string name="modify_password_success">Password Changed.</string>
+    <string name="exit_app_prompt">Tap again to exit FinePo.</string>
+    <string name="error_only_numeric_digits_allowed">Only numeric digits are allowed.</string>
+    <string name="error_this_field_cannot_contain_special_character">This field cannot contain any special character</string>
+    <string name="error_only_standard_letters_are_allowed">Only standard letters are allowed</string>
+    <string name="error_creditcard_number_not_valid">Credit card number is not valid</string>
+    <string name="error_domain_not_valid">Domain name not valid</string>
+    <string name="error_ip_not_valid">IP Address not valid</string>
+    <string name="error_url_not_valid">Web Url is not valid</string>
+    <string name="error_notvalid_personname">Not a valid first or last name.</string>
+    <string name="error_notvalid_personfullname">Not a valid full name.</string>
+    <string name="error_date_not_valid">Format not valid</string>
+    <string name="connecting_bluetooth_device_loading">Connecting...</string>
+    <string name="scan_not_found_bluetooth_device">Failed to connect device. Make sure device within 3m.</string>
+    <string name="scan_not_found_bluetooth_device_message">Failed to connect device. Make sure device within 3m.</string>
+    <string name="scaning_bluetooth_device_loading">Scanning Devices...</string>
+    <string name="scan_not_found_bluetooth_device_title">Unable to connect device</string>
+    <string name="connecting_bluetooth_device_failed">Unable to connect device.</string>
+    <!-- 添加宝宝 -->
+    <string name="add_baby_loading">Adding Information...</string>
+    <string name="add_baby_successful">Add Successfully.</string>
+    <string name="add_baby_failed">Add Failed.</string>
+    <string name="corp_image_loading">corping...</string>
+
+    <!-- 添加意见反馈 -->
+    <string name="error_empty_feedback_content">Write Something!</string>
+    <string name="submit_feedback_successful">Submit Successfully</string>
+    <string name="submit_feedback_failed">Submit Failed</string>
+    <string name="submit_feedback_loading">Submitting...</string>
+    <string name="search_healthinfo_not_allow_empty_key">Please input something</string>
+    <!-- 备忘录 -->
+    <string name="upload_tip_loading">Submitting...</string>
+    <string name="upload_tip_success">Submit Successfully</string>
+    <string name="upload_tip_failed">Submit Failed</string>
+    <string name="error_no_allowed_empty_health_tip">Please write something...</string>
+    <string name="favorite_success">Added to Favourites.</string>
+    <string name="no_favorite">No Favourites.</string>
+    <!-- 测量体温 -->
+    <string name="prompt_measure_temperature">Measure Complete</string>
+    <string name="prompt_measure_temperature_attention">Check the temperature.</string>
+    <string name="disconnected_device_prompt">Stop Measuring Now?</string>
+    <!--  -->
+
+    <string name="loading">Loading...</string>
+    <string name="http_normal_failed">Load Data Failed</string>
+    <string name="emptyresult">No Data Received.</string>
+    <string name="footer_list_loading">Loading...</string>
+    <string name="request_failed">Load Failed.</string>
+    <string name="use_manual_error">No User Manual.</string>
+    <!-- 分享成功失败的 Toast -->
+    <string name="weibosdk_toast_share_success">Share Sucessfully.</string>
+    <string name="weibosdk_toast_share_failed">Share Failed.</string>
+    <string name="weibosdk_toast_share_canceled">Share Cancelled</string>
+    <string name="weibosdk_not_support_api_hint">Please install the latest version of Weibo.</string>
+ <string name="no_new_version">Current version is already the latest.</string>
+ <string name="new_version">New version</string>
+  <string name="battery_unavailable">Thermometer was disconnected because of low battery. Please change the battery.</string>
+   <string name="empty_gallery">The gallery is empty.</string>
+</resources>

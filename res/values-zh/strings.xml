@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">放心宝</string>
+    <string name="mDomain">http://fxbabyfx.duapp.com</string>
+   
+    <string name="choose_sex"> 选择性别</string>
+    <string name="country_code"> +%s </string>
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">Date must be between %1$s and %2$s.</string>
+    <string name="month_name_format">yyyy年M月</string>
+    <string name="month_key_format">yyyyMM</string>
+    <string name="share_url">http://static.finepo.com/fxbabyfx/htmls/51.html?response-content-type=text/html</string>
+    <string name="share_user_main">我的宝宝当前体温 %1$s，体温%2$s</string>
+    <string name="weibo_url">http://weibo.com/u/5072636058</string>
+    <string name="service_phone">4008160010</string>
+
+</resources>

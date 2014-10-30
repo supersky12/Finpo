@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="NetworkExceptional">哎呀，服务器开小差了！攻城狮们正在努力搞定！</string>
+    <string name="ServerExceptional">很抱歉，我们遇到一点技术问题，请您稍后再试</string>
+    <string name="ServerTimeOutExceptional">网络超时，请重试</string>
+    <string name="network_unavailable">无法访问网络，请检查网络连接</string>
+    <string name="network_authentication_failed">登录失败~</string>
+    <string name="external_storage_unmounted">SD卡不可用</string>
+    <string name="save_imagefile_path_error">解析保存图片文件路径出错</string>
+    <string name="error_email_address_not_valid">邮件地址格式错误</string>
+    <string name="error_field_must_not_be_empty">所填项不能为空</string>
+    <string name="error_phone_not_valid">电话号码格式错误</string>
+    <string name="error_field_account_not_valid">登录名格式错误</string>
+    <string name="error_send_email_failed"> 邮件发送失败!</string>
+    <string name="send_email_success"> 邮件发送成功!</string>
+    <string name="error_login_failed"> 登录失败!</string>
+    <string name="login_success"> 登录成功!</string>
+    <string name="register_success"> 注册成功!</string>
+    <string name="register_failed"> 注册失败!</string>
+    <string name="reset_password_send_email_loading"> 正在发送邮件...</string>
+    <string name="binding_email_success"> 修改邮箱成功!</string>
+    <string name="read_imagefile_path_error">读取照片失败，请重新拍照</string>
+    <string name="error_reset_password_failed">重置密码失败!</string>
+    <string name="error_update_baby_info">获取数据失败！</string>
+    <string name="modify_baby_sex_loading">正在修改宝宝性别...</string>
+    <string name="modify_baby_sex_success">修改宝宝性别成功</string>
+    <string name="modify_baby_born_loading">正在修改宝宝生日...</string>
+    <string name="modify_baby_born_success">修改宝宝生日成功</string>
+    <string name="modify_baby_nickname_loading">正在修改宝宝昵称...</string>
+    <string name="modify_baby_nickname_success">修改宝宝昵称成功</string>
+    <string name="modify_baby_photo_loading">正在上传图片...</string>
+    <string name="modify_baby_photo_success">修改宝宝头像成功</string>
+    <string name="modify_password_failed"> 修改密码失败!</string>
+    <string name="modify_password_success"> 修改密码成功!</string>
+    <string name="exit_app_prompt">再按一次退出放心宝</string>
+    <string name="error_only_numeric_digits_allowed">只允许数字.</string>
+    <string name="error_this_field_cannot_contain_special_character">不允许特殊字符</string>
+    <string name="error_only_standard_letters_are_allowed">只允许标准字符</string>
+    <string name="error_creditcard_number_not_valid">信用卡号码无效</string>
+    <string name="error_domain_not_valid">域名无效</string>
+    <string name="error_ip_not_valid">IP地址无效</string>
+    <string name="error_url_not_valid">Web地址无效</string>
+    <string name="error_notvalid_personname">姓或名无效</string>
+    <string name="error_notvalid_personfullname">名字无效.</string>
+    <string name="error_date_not_valid">格式无效</string>
+    <string name="connecting_bluetooth_device_loading">正在连接蓝牙设备...</string>
+    <string name="scan_not_found_bluetooth_device">未能扫描到所选择的体温计,请您确保体温计与手机距离在3米内</string>
+    <string name="scan_not_found_bluetooth_device_message">请您确保体温计与手机距离在3米内</string>
+    <string name="scaning_bluetooth_device_loading">正在扫描蓝牙设备，请稍候...</string>
+    <string name="scan_not_found_bluetooth_device_title">未能连接体温计</string>
+    <string name="connecting_bluetooth_device_failed">未能连接体温计</string>
+    <!-- 添加宝宝 -->
+    <string name="add_baby_loading">正在添加宝宝信息...</string>
+    <string name="add_baby_successful">添加宝宝信息成功</string>
+    <string name="add_baby_failed">添加宝宝信息失败</string>
+    <string name="corp_image_loading">正在截图...</string>
+    <!-- 添加意见反馈 -->
+    <string name="error_empty_feedback_content">反馈意见不能为空.</string>
+    <string name="submit_feedback_successful">提交反馈意见成功</string>
+    <string name="submit_feedback_failed">提交反馈意见失败</string>
+    <string name="submit_feedback_loading">正在提交反馈意见...</string>
+    <string name="search_healthinfo_not_allow_empty_key">请输入关键字搜素</string>
+    <!-- 备忘录 -->
+    <string name="upload_tip_loading">正在提交备忘录...</string>
+    <string name="upload_tip_success">提交备忘录成功</string>
+    <string name="upload_tip_failed">提交备忘录失败</string>
+    <string name="error_no_allowed_empty_health_tip">备忘录内容不能为空</string>
+    <string name="favorite_success">收藏成功。</string>
+    <string name="no_favorite">没有收藏的百科信息.</string>
+
+    <!-- 测量体温 -->
+    <string name="prompt_measure_temperature">温度测定完成</string>
+    <string name="prompt_measure_temperature_attention">请注意体温</string>
+    <string name="disconnected_device_prompt">是否停止测量并断开体温计</string>
+    <!--  -->
+
+    <string name="loading">加载中...</string>
+    <string name="http_normal_failed">获取数据失败</string>
+    <string name="emptyresult">没有获取到。</string>
+    <string name="footer_list_loading">正在加载...</string>
+    <string name="request_failed">获取数据失败</string>
+    <string name="use_manual_error">没有用户手册</string>
+    <!-- 分享成功失败的 Toast -->
+    <string name="weibosdk_toast_share_success">Share Sucessfully.</string>
+    <string name="weibosdk_toast_share_failed">Share Failed.</string>
+    <string name="weibosdk_toast_share_canceled">Share Cancelled</string>
+    <string name="weibosdk_not_support_api_hint">Please install the latest version of Weibo.</string>
+    <string name="no_new_version">目前是最新版本.</string>
+    <string name="new_version">有更新</string>
+     <string name="battery_unavailable">电池电量低，温度计已断开。请更换电池。</string>
+      <string name="empty_gallery">相册是空的。</string>
+</resources>

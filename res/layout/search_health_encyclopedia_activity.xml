@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/TitleStyle"
+        android:layout_width="fill_parent" >
+
+        <TextView
+            android:id="@+id/btn_back"
+            style="@style/TitleLeftButtonStyle" />
+
+        <TextView
+            android:id="@+id/ContentTopText"
+            style="@style/TitleMiddleTextStyle"
+            android:text="@string/search_healthinfo_acitivty_title" />
+    </RelativeLayout>
+
+    <com.yujunkang.fangxinbao.control.SearchBarView
+        android:id="@+id/lay_search_info_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.yujunkang.fangxinbao.control.SearchBarView>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/line"
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/button07_bg" />
+
+</LinearLayout>

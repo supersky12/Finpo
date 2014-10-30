@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/TitleStyle"
+        android:layout_width="fill_parent" >
+
+        <TextView
+            android:id="@+id/btn_back"
+            style="@style/TitleLeftButtonStyle" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TitleMiddleTextStyle"
+            android:layout_marginLeft="55dip"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="" />
+    </RelativeLayout>
+
+    <com.yujunkang.fangxinbao.control.WrapWebView
+        android:id="@+id/wv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

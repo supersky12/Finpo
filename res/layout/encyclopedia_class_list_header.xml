@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    
+    android:background="#eaedef"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_weight="1"
+        android:background="@drawable/button_gray_bg"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="8dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dip"
+        android:singleLine="true"
+        android:text="@string/btn_health_search"
+        android:textColor="#70b2e5"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/btn_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_weight="1"
+        android:background="@drawable/button_gray_bg"
+        android:drawableLeft="@drawable/bookmark"
+        android:drawablePadding="8dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dip"
+        android:singleLine="true"
+        android:text="@string/btn_health_bookmark"
+        android:textColor="#70b2e5"
+        android:textSize="20dip" />
+ 
+</LinearLayout>

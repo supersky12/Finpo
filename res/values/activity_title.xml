@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="select_country_activity">Country or Region</string>
+    <string name="fetch_verifycode_activity_reset_password">Reset Password</string>
+    <string name="fetch_verifycode_activity_register">Cellphone Register</string>
+    <string name="fetch_verifycode_activity_modify_phone">Cellphone Register</string>
+    <string name="confirm_verifycode_activity">Enter SMS code</string>
+    <string name="forget_password_title">Reset Password</string>
+    <string name="modify_phone_title">New Number</string>
+    <string name="register_last_step">Last Step</string>
+    <string name="register_email_title">E-mail Address</string>
+    <string name="reset_password_title">New Password</string>
+    <string name="baby_info_title">My Baby</string>
+    <string name="edit_baby_nickname_title">Change Nickname</string>
+    <string name="about_activity_title">About</string>
+    <string name="settings_activity_title">Settings</string>
+    <string name="settings_max_temperature_activity_title">High Temperature Alarm</string>
+    <string name="settings_min_temperature_activity_title">Low Temperature Alarm</string>
+    <string name="settings_normal_temperature_activity_title">Unit of Measurement</string>
+    <string name="modify_password_title">Change Password</string>
+    <string name="modify_phone_login_activity_title">Verify Password</string>
+    <string name="add_baby_activity_title">New Baby Info.</string>
+    <string name="feedback_activity_title">Report Problems</string>
+    <string name="setting_language_activity_title">Language</string>
+    <string name="edit_tip_acitivty_title">Edit Record</string>
+    <string name="add_tip_acitivty_title">Add Record</string>
+    <string name="forget_password_acitivty_title">Forget Password</string>
+    <string name="search_healthinfo_acitivty_title">Search</string>
+    <string name="user_device_step1">Wear Thermometer</string>
+    <string name="user_device_step2">Connect the Thermometer</string>
+<string name="connect_device_success">Connect Successfully</string>
+<string name="user_manual_title">User Manual</string>
+<string name="measurement_interval_title">Measurement Interval</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_account_hint">Cellphone or E-mail</string>
+    <string name="login_password_hint">Password</string>
+    <string name="register_phone_hint">Cellphone Number</string>
+    <string name="register_password_hint">6-16 characters and digits</string>
+    <string name="register_nickname_hint">Less than 15 characters</string>
+    <string name="register_birthday_hint">Select Birthday</string>
+    <string name="register_sex_hint">Boy</string>
+    <string name="register_verifycode_hint">SMS code</string>
+    <string name="register_email_hint">E-mail Address</string>
+    <string name="reset_password_hint">New Password</string>
+    <string name="edit_baby_nickname_hint">Baby\'s Nickname</string>
+    <string name="change_phone_password_hint">Password</string>
+
+    <!-- 修改密码 -->
+    <string name="old_password_hint">Current password</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="feedback_content_hint">Promlems Here</string>
+    <string name="feedback_contact_hint">Contact Information</string>
+    <string name="health_tip_hint">Health description here.</string>
+    <string name="search_hint">Search</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.yujunkang.fangxinbao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@drawable/temperature_normal_title_bg" >
+
+        <com.yujunkang.fangxinbao.control.FlatButton
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dip"
+            android:paddingRight="5dip"
+            app:lefticon="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/iv_main_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/user_main_logo" />
+
+        <TextView
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/icon_share"
+            android:enabled="false" />
+    </RelativeLayout>
+    <com.yujunkang.fangxinbao.control.NoCrashDrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <include layout="@layout/user_main_inner_view" />
+            </ScrollView>
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/left_drawer"
+            android:layout_width="300dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="?attr/mainBackgroundReferenceValue" >
+            <include layout="@layout/menu_settings_layout" />
+        </LinearLayout>
+    </com.yujunkang.fangxinbao.control.NoCrashDrawerLayout>
+</LinearLayout>

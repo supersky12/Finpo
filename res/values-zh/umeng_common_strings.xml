@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="umeng_common_action_info_exist">App已经在下载队列中</string>
+    <string name="umeng_common_info_interrupt">下载中断</string>
+    <string name="umeng_common_action_pause">暂停</string>
+    <string name="umeng_common_action_continue">继续</string>
+    <string name="umeng_common_action_cancel">取消</string>
+	<string name="umeng_common_download_notification_prefix">正在下载: </string>
+	<string name="umeng_common_pause_notification_prefix">暂停: </string>
+	<string name="umeng_common_start_download_notification">下载开始.</string>
+	<string name="umeng_common_start_patch_notification">开始下载升级包.</string>
+	<string name="umeng_common_network_break_alert">确保网络连接正常,下载失败</string>
+	<string name="umeng_common_download_failed">下载失败! </string>
+	<string name="umeng_common_download_finish">下载完成,点击以安装.</string>
+	<string name="umeng_common_patch_finish">升级包下载完毕，点击以安装</string>
+	<string name="umeng_common_silent_download_finish">新版本可用，点击以安装</string>
+	<string name="umeng_common_icon">图标</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/TitleStyle"
+        android:layout_width="fill_parent" >
+
+        <TextView
+            android:id="@+id/btn_back"
+            style="@style/TitleLeftButtonStyle" />
+
+        <TextView
+            android:id="@+id/ContentTopText"
+            style="@style/TitleMiddleTextStyle"
+            android:text="@string/select_country_activity" />
+
+        <TextView
+            style="@style/TitleRightButtonStyle"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <com.yujunkang.fangxinbao.control.SearchBarView
+        android:id="@+id/lay_select_country_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.yujunkang.fangxinbao.control.SearchBarView>
+
+    <LinearLayout
+        android:id="@+id/search_result_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="26dip"
+            android:background="#ffcfd6df"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dip"
+            android:text="@string/search_country_result"
+            android:textColor="#ff7f7f7f"
+            android:textSize="15dip" />
+
+        <ListView
+            android:id="@+id/search_result_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:layout_weight="1"
+            android:cacheColorHint="@color/transparent"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.yujunkang.fangxinbao.control.PinnedHeaderExpandableListView
+            android:id="@+id/expandablelist"
+            style="@style/NormalListView"
+            android:childDivider="@drawable/child_bg"
+            android:childIndicatorLeft="0dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:groupIndicator="@null"
+            android:scrollbarAlwaysDrawHorizontalTrack="false" >
+        </com.yujunkang.fangxinbao.control.PinnedHeaderExpandableListView>
+
+        <com.yujunkang.fangxinbao.control.IndexScrollBar
+            android:id="@+id/scroll_group_index"
+            android:layout_width="45dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_index_in_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/filled_bg5"
+            android:gravity="center"
+            android:maxWidth="200dip"
+            android:minWidth="70dip"
+            android:padding="10dip"
+            android:text="A"
+            android:textColor="#99FFFFFF"
+            android:textSize="24dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

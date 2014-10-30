@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="main_title">FinePo</string>
+    <string name="main_prompt">Measure Baby Anytime</string>
+    <string name="login_title">Login</string>
+    <string name="login_forget_password">Forget Password?</string>
+    <string name="login_change_national_country">Non-china Number</string>
+    <string name="login_change_china_country">China Number</string>
+    <string name="fetch_verifycode_country_label">Country or Region</string>
+    <string name="verifycode_prompt">Sent SMS to %s</string>
+    <string name="error_country_code">Invalid Area Code</string>
+    <string name="baby_photo_label">Photo</string>
+    <string name="baby_nickname_label">Nickname</string>
+    <string name="baby_sex_label">Gender</string>
+    <string name="baby_born_label">Birthday</string>
+    <string name="password_label">Password</string>
+    <string name="register_email_prompt">Try to register with your e-mail if you can\'t receive the code.</string>
+    <string name="submit_email_prompt">Please Make Sure the E-mail Address is available. You can\'t reset password with unavailable address.</string>
+    <string name="reset_password_new_password_label">Password</string>
+    <string name="change_phone_password_label">Password</string>
+    <!-- 主界面 -->
+    <string name="check_status">Measuring...</string>
+    <string name="string_null">-   -</string>
+    <string name="temperature_symbol">℃</string>
+    <string name="settings_account">My Profile</string>
+    <string name="settings_health">Measure Now</string>
+    <string name="settings_health_history">Records</string>
+    <string name="settings_health_info">Health Tips</string>
+    <string name="settings_preferences">Settings</string>
+    <string name="settings_about">About</string>
+    <string name="threedays_temperature_info">Overview in Past 72 hours</string>
+    <string name="continued_time">Persistent Fever</string>
+    <string name="max_temperature">Highest Temperature</string>
+    <string name="onedays_temperature_info">Trend in Past 24 hours</string>
+    <string name="temperature_max_desc">Your baby is in high fever. Use medicine or see the doctors.</string>
+    <string name="temperature_middle_desc">Your baby is having a fever. Try physical cooling first.</string>
+    <string name="temperature_normal_desc">Your baby\'s temperature is normal.</string>
+    <string name="checked">%1$s measured, in %2$s again.</string>
+    <string name="first_checked">Measuring, finish in %s</string>
+    <string name="reconnection_device">Disconnected. Tap to reconnect.</string>
+    <!-- 宝宝信息 -->
+    <string name="check_other_baby_label">View My other babies</string>
+    <string name="edit_baby_nickname_label">Nickname</string>
+    <string name="baby_sex_boy">Boy</string>
+    <string name="baby_sex_girl">Girl</string>
+
+    <!-- 关于 -->
+    <string name="about_sina_label">Weibo</string>
+    <string name="about_sina_fangxinbao">FinePo</string>
+    <string name="about_service_phone">Customer Service</string>
+    <string name="about_check_version">Check Updates</string>
+    <string name="about_feedback">Report Problems</string>
+    <string name="user_manual">User Manual</string>
+    <!-- 设置 -->
+    <string name="settings_battery">Thermometer Battery</string>
+     <string name="settings_alarm_sound_title">Alarm Sound</string>
+      <string name="measurement_interval_unit">%s minute(s)</string>
+    <string name="settings_max_temperature_title">High Temperature Alarm</string>
+    <string name="settings_min_temperature_title">Low Temperature Alarm</string>
+    <string name="settings_normal_temperature_title">Unit of Measurement</string>
+    <string name="settings_max_temperature_prompt">Alarm me over:</string>
+    <string name="settings_min_temperature_prompt">Alarm me below:</string>
+    <string name="settings_min_temperature">Low Temperature Alarm</string>
+    <string name="settings_phone">Cellphone</string>
+    <string name="settings_password">Change Password</string>
+    <string name="settings_binding_sina">Weibo</string>
+    <string name="settings_email">E-mail</string>
+    <string name="settings_language">Language</string>
+    <string name="binding_sina_default_label">Not Bound</string>
+    <string name="binding_email_default_label">Not Bound</string>
+    <string name="settings_language_default_label">Same as System</string>
+    <string name="hours">hour(s)</string>
+    <string name="modify_phone_success_tip">Cellphone change successfully.</string>
+    <string name="temperature_format_c">%s℃</string>
+    <string name="temperature_format_f">%s℉</string>
+    <string name="connecting_device">Connect new device...</string>
+    <string name="disconnected_status">Disconnected. Tap to reconnect.</string>
+    <string name="connected_status">Connected</string>
+    <!-- 日历 -->
+    <string name="today">Today</string>
+    <string name="note_tip">a favor of 38.1℃</string>
+    <string name="add_health_tip">Add a Note</string>
+    <string name="edit_health_tip">Edit Note</string>
+    <string name="empty_health_data">No measurement.</string>
+    <string name="unit_days"> days</string>
+    <!-- 修改密码 -->
+    <string name="old_password_label">Old</string>
+    <string name="new_password_label">New</string>
+    <!-- 意见反馈 -->
+    <string name="feedback_contact_label">Contact Information</string>
+    <string name="temperature_status_unknown">Unknown</string>
+    <string name="notification_content">Temperature is %s。Detail >></string>
+    <string name="disconnected_from_bluetooth_service">Disconnected</string>
+    <!-- 引导 -->
+    <string name="use_device_step1_tip">Switch on the thermometer and take steps as followings and then tap Done。</string>
+    <string name="wear_device_step1">Keep your baby\'s underarm skin dry. Make bandage fit your baby.</string>
+    <string name="wear_device_step2">Make the measuring spot of the thermometer at the center of the baby\'s underarm skin;</string>
+    <string name="wear_device_attention_title">Attention:</string>
+    <string name="wear_device_attention">Wearing the thermometer inappropriately can make the temperature inaccurate.</string>
+    <string name="use_device_step2_tip">Please confirm:</string>
+    <string name="prepare_device_step1">Switch on Bluetooth of your phone</string>
+    <string name="prepare_device_step2">Your baby can\'t be away form the phone over 3 meters.</string>
+    <string name="prepare_device_step3">High battery is required;</string>
+    <string name="prepare_device_attention">Tap Start Connecting when all done.</string>
+    <string name="select_device_tip">Select the Device</string>
+    <string name="connect_device_success_tip">Congratulations!\nThermometer connected successfully.</string>
+    <string name="device_name">FinePo Thermometer</string>
+    <string name="device_desc">Measure Baby Anytime</string>
+    <string name="buy_device_attention">No FinePo Product Yet?</string>
+    <string name="buy_device">Buy</string>
+    <string name="change_battery">Change the battery</string>
+    <string name="battery_full">High Battery</string>
+    <string name="temperature_unit_c">℃</string>
+    <string name="temperature_unit_f">℉</string>
+     <string name="search_country_result">Search Result</string>
+<string name="search_country_no_result">no result.</string>
+ <string name="settings_temperature_period_title">Measurement Interval</string>
+ <string name="switch_on">On</string>
+<string name="switch_off">Off</string>
+</resources>

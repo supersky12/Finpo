@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.yujunkang.fangxinbao"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/TitleStyle"
+        android:layout_width="fill_parent" >
+
+        <TextView
+            android:id="@+id/btn_back"
+            style="@style/TitleLeftButtonStyle" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TitleMiddleTextStyle"
+            android:text="@string/measurement_interval_title" />
+
+        <TextView
+            style="@style/TitleRightButtonStyle"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/table_item_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yujunkang.fangxinbao.control.FlatButton
+                android:id="@+id/btn_reduce"
+                android:layout_width="45dip"
+                android:layout_height="30dip"
+                android:gravity="left"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                app:lefticon="@drawable/reduce" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_period"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="fffffff"
+            android:textColor="?attr/normalTextColorReferenceValue"
+            android:textSize="@dimen/text_size_title" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal" >
+
+            <com.yujunkang.fangxinbao.control.FlatButton
+                android:id="@+id/btn_add"
+                android:layout_width="45dip"
+                android:layout_height="30dip"
+                android:gravity="right"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                app:lefticon="@drawable/increase" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/btn_green"
+        android:gravity="center"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/edit_baby_nickname"
+        android:textColor="@color/white"
+        android:textSize="18dip" />
+
+</LinearLayout>

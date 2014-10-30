@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="main_title">放心宝</string>
+    <string name="main_prompt">24小时不间断体温检测</string>
+    <string name="login_title">登录</string>
+    <string name="login_forget_password">忘记密码?</string>
+    <string name="login_change_national_country">国际手机号</string>
+    <string name="login_change_china_country">中国手机号</string>
+    <string name="fetch_verifycode_country_label">国家和地区</string>
+    <string name="verifycode_prompt">已发送短信至 %s</string>
+    <string name="error_country_code">国家代码无效</string>
+    <string name="baby_photo_label">头像</string>
+    <string name="baby_nickname_label">宝贝昵称</string>
+    <string name="baby_sex_label">性别</string>
+    <string name="baby_born_label">生日</string>
+    <string name="password_label">密码</string>
+    <string name="register_email_prompt">如果您收不到短信验证码，请尝试使用电子邮箱注册。</string>
+    <string name="submit_email_prompt">请确保邮箱地址真实有效，以防您忘记密码后不能重设密码。邮箱地址设置后不能更改。</string>
+    <string name="reset_password_new_password_label">密码</string>
+    <string name="change_phone_password_label">登录密码</string>
+    <!-- 主界面 -->
+    <string name="check_status">正在测定...</string>
+    <string name="string_null">-   -</string>
+    <string name="temperature_symbol">℃</string>
+    <string name="settings_account">我的账号</string>
+    <string name="settings_health">实时健康概况</string>
+    <string name="settings_health_history">历史健康记录</string>
+    <string name="settings_health_info">宝宝健康百科</string>
+    <string name="settings_preferences">设置</string>
+    <string name="settings_about">关于</string>
+    <string name="threedays_temperature_info">72小时体温概况</string>
+    <string name="continued_time">持续发热时间</string>
+    <string name="max_temperature">最高体温</string>
+    <string name="onedays_temperature_info">24小时体温变化</string>
+    <string name="temperature_max_desc">请给您的宝宝服用退烧药，防止发生热惊厥。若不退烧请前往医院就医。</string>
+    <string name="temperature_middle_desc">您的宝宝正在发烧。请尝试给您的宝宝物理降温。</string>
+    <string name="temperature_normal_desc">您的宝宝当前体温完全正常，请放心。</string>
+    <string name="checked">%1$s 测定, %2$s后再次测定</string>
+    <string name="first_checked">正在测定,%s后测定</string>
+    <string name="reconnection_device">未连接，点击重试连接</string>
+    <!-- 宝宝信息 -->
+    <string name="check_other_baby_label">查看其他宝宝</string>
+    <string name="edit_baby_nickname_label">昵称</string>
+    <string name="baby_sex_boy">男孩儿</string>
+    <string name="baby_sex_girl">女孩儿</string>
+
+    <!-- 关于 -->
+    <string name="about_sina_label">新浪微博</string>
+    <string name="about_sina_fangxinbao">放心宝</string>
+    <string name="about_service_phone">客服电话</string>
+    <string name="about_check_version">检测新版本</string>
+    <string name="about_feedback">意见反馈</string>
+    <string name="user_manual">用户手册</string>
+    <!-- 设置 -->
+    <string name="settings_battery">温度计电量</string>
+     <string name="settings_alarm_sound_title">报警音</string>
+      <string name="measurement_interval_unit">%s 分钟</string>
+    <string name="settings_max_temperature_title">高温报警</string>
+    <string name="settings_min_temperature_title">低温报警</string>
+    <string name="settings_normal_temperature_title">温度标准</string>
+    <string name="settings_max_temperature_prompt">高于此温度时报警</string>
+    <string name="settings_min_temperature_prompt">低于此温度时报警</string>
+    <string name="settings_min_temperature">低温报警</string>
+    <string name="settings_phone">手机号</string>
+    <string name="settings_password">修改密码</string>
+    <string name="settings_binding_sina">新浪微博</string>
+    <string name="settings_email">绑定邮箱</string>
+    <string name="settings_language">界面语言</string>
+    <string name="binding_sina_default_label">未绑定</string>
+    <string name="binding_email_default_label">未绑定</string>
+    <string name="settings_language_default_label">跟随系统设置</string>
+    <string name="hours">小时</string>
+    <string name="modify_phone_success_tip">修改手机号成功</string>
+    <string name="temperature_format_c">%s℃</string>
+    <string name="temperature_format_f">%s℉</string>
+    <string name="connecting_device">连接新设备...</string>
+    <string name="disconnected_status">未连接，点击以重新连接</string>
+    <string name="connected_status">连接正常</string>
+    <!-- 日历 -->
+    <string name="today">今天</string>
+    <string name="note_tip">出现了38.1℃的高温</string>
+    <string name="add_health_tip">添加健康备忘</string>
+    <string name="edit_health_tip">编辑健康备忘</string>
+    <string name="empty_health_data"> 这一天  \n 没给宝宝测体温哦</string>
+    <string name="unit_days"> 天</string>
+    <!-- 修改密码 -->
+    <string name="old_password_label">原密码</string>
+    <string name="new_password_label">新密码</string>
+    <!-- 意见反馈 -->
+    <string name="feedback_contact_label">您的联系方式（电话、qq或邮箱）</string>
+    <string name="temperature_status_unknown">未知</string>
+    <string name="notification_content">体温 %s。详情 >></string>
+    <string name="disconnected_from_bluetooth_service">已断开连接</string>
+    <!-- 引导 -->
+    <string name="use_device_step1_tip">请按下面提示为宝宝佩戴体温计，佩戴妥当后请点击“佩戴完成”。</string>
+    <string name="wear_device_step1">擦干腋下汗液，将温度计套在胳膊上，调整扎带舒适为宜</string>
+    <string name="wear_device_step2">温度计靠近腋窝中心放置，感温区贴紧身体皮肤</string>
+    <string name="wear_device_attention_title">注意</string>
+    <string name="wear_device_attention">若体温计未按要求佩戴，体温计将不能准确监测宝宝的体温。</string>
+    <string name="use_device_step2_tip">为了正常连接，请您确认</string>
+    <string name="prepare_device_step1">手机的蓝牙功能已经打开。</string>
+    <string name="prepare_device_step2">您的宝宝离您的手机不超过3米。</string>
+    <string name="prepare_device_step3">体温计电量充足。</string>
+    <string name="prepare_device_attention">如果没有问题，请点击“立即连接”按钮。手机将尝试与您的体温计进行连接。</string>
+    <string name="select_device_tip">选择您要使用的设备</string>
+    <string name="connect_device_success_tip">恭喜您！体温计已成功连接</string>
+    <string name="device_name">蓝牙体温计</string>
+    <string name="device_desc">24小时不间断检测您的宝宝体温</string>
+    <string name="buy_device_attention">还没有放心宝产品？</string>
+    <string name="buy_device">立即购买</string>
+    <string name="change_battery">请更换电池</string>
+    <string name="battery_full">电量充足</string>
+    <string name="temperature_unit_c">℃</string>
+    <string name="temperature_unit_f">℉</string>
+    <string name="search_country_result">搜索到的国家</string>
+ <string name="search_country_no_result">没有搜索到国家</string>
+ <string name="settings_temperature_period_title">测定间隔</string>
+ <string name="switch_on">开</string>
+<string name="switch_off">关</string>
+</resources>

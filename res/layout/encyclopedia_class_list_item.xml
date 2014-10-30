@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_class_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dip"
+    android:paddingLeft="15dip"
+    android:paddingTop="10dip"
+    android:singleLine="true"
+    android:background="@drawable/gray_list_item_selector"
+    android:text="4444444"
+    android:textColor="@color/black"
+    android:textSize="20dip" />
